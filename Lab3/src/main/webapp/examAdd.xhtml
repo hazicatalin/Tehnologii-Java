@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pe="http://primefaces.org/ui/extensions"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Add Exam</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="page.xhtml">
+            <ui:define name="firstContent">
+                <h:form>
+                    <h:outputLabel for="txtName">
+                        <h:outputText value="Enter exam name"/>
+                    </h:outputLabel>            
+                    <h:inputText id="txtName" value="#{exam.name}"/>     
+
+                    <br/>
+                    <h:outputLabel for="txtStartingTime">
+                        <h:outputText value="Enter exam starting time"/>
+                    </h:outputLabel>            
+                    <pe:timePicker value="#{exam.startingTime}" id="txtStartingTime"/>
+
+
+                    <br/>
+                    <h:outputLabel for="txtDuration">
+                        <h:outputText value="Enter exam duration"/>
+                    </h:outputLabel>            
+                    <pe:timePicker value="#{exam.duration}" id="txtDuration"/>
+
+                    <br/>
+                    <h:commandButton id="cmdInsert" value="add item" action="#{exam.add}"/>
+
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+
