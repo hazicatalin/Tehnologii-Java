@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2  12/21/21, 11:45:51:553 EET  12/21/21, 11:52:57:341 EET java.io.FileNotFoundException com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator generateXML
+                                                                            - D:\Facultate\Java\service-a\target\liberty\wlp\usr\servers\demo2\logs\ffdc\ffdc_21.12.21_11.45.51.0.log
+------+------+---------------------------+---------------------------+---------------------------

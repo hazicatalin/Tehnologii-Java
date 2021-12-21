@@ -3,13 +3,13 @@
     <activeBuildProfiles>
         <profileId>liberty</profileId>
     </activeBuildProfiles>
-    <installDirectory>D:\Facultate\Java\demo\target\liberty\wlp</installDirectory>
-    <serverDirectory>D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo</serverDirectory>
-    <userDirectory>D:\Facultate\Java\demo\target\liberty\wlp\usr</userDirectory>
-    <serverOutputDirectory>D:\Facultate\Java\demo\target\wlp-package\demo</serverOutputDirectory>
+    <installDirectory>E:\Tehnologii-Java\demo\target\liberty\wlp</installDirectory>
+    <serverDirectory>E:\Tehnologii-Java\demo\target\liberty\wlp\usr\servers\demo</serverDirectory>
+    <userDirectory>E:\Tehnologii-Java\demo\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>E:\Tehnologii-Java\demo\target\wlp-package\demo</serverOutputDirectory>
     <serverName>demo</serverName>
-    <configDirectory>D:\Facultate\Java\demo\src\main\liberty\config</configDirectory>
-    <configFile>D:\Facultate\Java\demo\src\main\liberty\config\server.xml</configFile>
+    <configDirectory>E:\Tehnologii-Java\demo\src\main\liberty\config</configDirectory>
+    <configFile>E:\Tehnologii-Java\demo\src\main\liberty\config\server.xml</configFile>
     <bootstrapProperties>
         <app.context.root>/</app.context.root>
         <jwt.issuer>https://server.example.com</jwt.issuer>
@@ -27,9 +27,9 @@
         <type>zip</type>
     </assemblyArtifact>
     <assemblyArchive>C:\Users\hazi_\.m2\repository\io\openliberty\openliberty-kernel\21.0.0.12\openliberty-kernel-21.0.0.12.zip</assemblyArchive>
-    <assemblyInstallDirectory>D:\Facultate\Java\demo\target\liberty</assemblyInstallDirectory>
+    <assemblyInstallDirectory>E:\Tehnologii-Java\demo\target\liberty</assemblyInstallDirectory>
     <refresh>false</refresh>
-    <installAppsConfigDropins>D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <installAppsConfigDropins>E:\Tehnologii-Java\demo\target\liberty\wlp\usr\servers\demo\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
     <projectCompileDependency>org.postgresql:postgresql:42.2.2</projectCompileDependency>
     <projectCompileDependency>io.jaegertracing:jaeger-client:1.5.0</projectCompileDependency>
@@ -50,5 +50,5 @@
     <projectCompileDependency>io.opentracing.contrib:opentracing-tracerresolver:0.1.8</projectCompileDependency>
     <projectCompileDependency>org.slf4j:slf4j-api:1.7.30</projectCompileDependency>
     <projectCompileDependency>org.slf4j:slf4j-jdk14:1.7.30</projectCompileDependency>
-    <warSourceDirectory>D:\Facultate\Java\demo\src\main\webapp</warSourceDirectory>
+    <warSourceDirectory>E:\Tehnologii-Java\demo\src\main\webapp</warSourceDirectory>
 </liberty-plugin-config>

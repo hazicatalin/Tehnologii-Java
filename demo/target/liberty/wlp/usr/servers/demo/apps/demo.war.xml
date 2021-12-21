@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive>
-    <dir sourceOnDisk="D:\Facultate\Java\demo\src\main\webapp" targetInArchive="/"/>
-    <dir sourceOnDisk="D:\Facultate\Java\demo\target\classes" targetInArchive="/WEB-INF/classes"/>
+    <dir sourceOnDisk="E:\Tehnologii-Java\demo\src\main\webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="E:\Tehnologii-Java\demo\target\classes" targetInArchive="/WEB-INF/classes"/>
     <file sourceOnDisk="C:\Users\hazi_\.m2\repository\org\postgresql\postgresql\42.2.2\postgresql-42.2.2.jar" targetInArchive="/WEB-INF/lib/postgresql-42.2.2.jar"/>
     <file sourceOnDisk="C:\Users\hazi_\.m2\repository\io\jaegertracing\jaeger-client\1.5.0\jaeger-client-1.5.0.jar" targetInArchive="/WEB-INF/lib/jaeger-client-1.5.0.jar"/>
     <file sourceOnDisk="C:\Users\hazi_\.m2\repository\io\jaegertracing\jaeger-thrift\1.5.0\jaeger-thrift-1.5.0.jar" targetInArchive="/WEB-INF/lib/jaeger-thrift-1.5.0.jar"/>
@@ -21,5 +21,5 @@
     <file sourceOnDisk="C:\Users\hazi_\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.8\opentracing-tracerresolver-0.1.8.jar" targetInArchive="/WEB-INF/lib/opentracing-tracerresolver-0.1.8.jar"/>
     <file sourceOnDisk="C:\Users\hazi_\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar" targetInArchive="/WEB-INF/lib/slf4j-api-1.7.30.jar"/>
     <file sourceOnDisk="C:\Users\hazi_\.m2\repository\org\slf4j\slf4j-jdk14\1.7.30\slf4j-jdk14-1.7.30.jar" targetInArchive="/WEB-INF/lib/slf4j-jdk14-1.7.30.jar"/>
-    <file sourceOnDisk="D:\Facultate\Java\demo\target\tmp\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+    <file sourceOnDisk="E:\Tehnologii-Java\demo\target\tmp\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
 </archive>
