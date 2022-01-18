@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/XHtml.xhtml to edit this template
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="page.xhtml">
+            <ui:define name="firstContent">
+        <h1>Exam Orar</h1>
+       <h:outputText value="#{timetable.ret}" id="outputText"/>
+            <br/>
+                <h:commandButton id="goto" value="go back" action="#{timetable.go}"/>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

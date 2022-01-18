@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <p:toolbar>
+                <p:toolbarGroup>
+                    <h:commandButton id="gotoExams" value="Add exam" action="#{head.exams}"/>
+                    <h:commandButton id="gotoStudents" value="Add student" action="#{head.students}"/>
+                    <h:commandButton id="gotoallStud" value="All students" action="#{head.allStudents}"/>
+                    <h:commandButton id="gotoTimetable" value="Timetable" action="#{head.timetable}"/>
+                    <h:commandButton id="gotoEdit" value="Edit Exam" action="#{head.edit}"/>
+                </p:toolbarGroup>
+            </p:toolbar>
+        </h:form>
+    </h:body>
+</html>
+
