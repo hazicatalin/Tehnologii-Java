@@ -25,10 +25,7 @@ public class StudentsViewer {
     
     public ArrayList<Student> findAll(){
         List<Student> students;
-        StudentRepository sr = new StudentRepository();
-        students = sr.findAll();
         
-        /*
         String query = "Select * from student";
         try {
             Class.forName("org.postgresql.Driver");
@@ -49,7 +46,7 @@ public class StudentsViewer {
             Logger.getLogger(StudentsViewer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
             Logger.getLogger(StudentsViewer.class.getName()).log(Level.SEVERE, null, ex);
-        }*/
-        return new ArrayList<Student>(students);
+        }
+        return students;
     }
 }
