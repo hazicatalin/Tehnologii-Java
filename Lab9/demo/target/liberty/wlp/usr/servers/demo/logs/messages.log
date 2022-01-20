@@ -1,0 +1,237 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = D:/Facultate/Java/demo/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-17.0.1
+java.version = 17.0.1
+java.runtime = Java(TM) SE Runtime Environment (17.0.1+12-LTS-39)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 4620@DESKTOP-EQQIBCR
+********************************************************************************
+[1/19/22, 22:31:17:364 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server demo has been launched.
+[1/19/22, 22:31:18:842 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.848 seconds
+[1/19/22, 22:31:18:907 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[1/19/22, 22:31:20:569 EET] 0000001e .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/19/22, 22:31:20:571 EET] 0000001d .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/19/22, 22:31:20:655 EET] 0000001a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[1/19/22, 22:31:20:873 EET] 0000001b com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[1/19/22, 22:31:21:452 EET] 0000001c rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: The MicroProfile JWT version 1.2 mpConfigProxy processed successfully.
+[1/19/22, 22:31:21:462 EET] 0000001c .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[1/19/22, 22:31:21:530 EET] 0000001e com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[1/19/22, 22:31:21:535 EET] 0000001e com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[1/19/22, 22:31:21:538 EET] 0000001e com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/19/22, 22:31:21:696 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[1/19/22, 22:31:21:720 EET] 00000039 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[1/19/22, 22:31:21:752 EET] 0000001a ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[1/19/22, 22:31:21:963 EET] 0000001a com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[1/19/22, 22:31:21:995 EET] 0000001a com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[1/19/22, 22:31:22:043 EET] 00000039 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 0.323 seconds. LTPA key file: D:/Facultate/Java/demo/target/liberty/wlp/usr/servers/demo/resources/security/ltpa.keys
+[1/19/22, 22:31:22:064 EET] 00000039 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.348 seconds.
+[1/19/22, 22:31:22:093 EET] 0000001a com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[1/19/22, 22:31:22:622 EET] 0000001a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[1/19/22, 22:31:22:796 EET] 0000001a .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[1/19/22, 22:31:22:861 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 1.165 seconds. SSL key file: D:/Facultate/Java/demo/target/liberty/wlp/usr/servers/demo/resources/security/public.jks
+[1/19/22, 22:31:22:861 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: D:/Facultate/Java/demo/target/liberty/wlp/usr/servers/demo/resources/security/public.jks of type: JKS
+[1/19/22, 22:31:22:971 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[1/19/22, 22:31:22:973 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully processed.
+[1/19/22, 22:31:22:974 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[1/19/22, 22:31:23:224 EET] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:31:23:225 EET] 0000002a bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:31:23:615 EET] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[1/19/22, 22:31:23:615 EET] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[1/19/22, 22:31:23:615 EET] 00000039 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[1/19/22, 22:31:23:616 EET] 0000003a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[1/19/22, 22:31:23:615 EET] 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[1/19/22, 22:31:23:621 EET] 0000003a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[1/19/22, 22:31:23:621 EET] 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[1/19/22, 22:31:23:615 EET] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[1/19/22, 22:31:23:622 EET] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[1/19/22, 22:31:23:621 EET] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[1/19/22, 22:31:23:621 EET] 00000039 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[1/19/22, 22:31:23:621 EET] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[1/19/22, 22:31:23:623 EET] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/ui/
+[1/19/22, 22:31:23:625 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/
+[1/19/22, 22:31:23:626 EET] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/metrics/
+[1/19/22, 22:31:23:627 EET] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/ibm/api/
+[1/19/22, 22:31:23:627 EET] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/health/
+[1/19/22, 22:31:23:628 EET] 00000037 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/jwt/
+[1/19/22, 22:31:23:724 EET] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[1/19/22, 22:31:23:724 EET] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[1/19/22, 22:31:23:724 EET] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[1/19/22, 22:31:23:725 EET] 0000002d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[1/19/22, 22:31:23:725 EET] 00000039 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[1/19/22, 22:31:23:724 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[1/19/22, 22:31:23:785 EET] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:23:801 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:23:802 EET] 00000039 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:23:804 EET] 0000002d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:23:805 EET] 00000030 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:23:815 EET] 00000032 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:23:826 EET] 0000002d com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/19/22, 22:31:24:000 EET] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[1/19/22, 22:31:24:003 EET] 00000039 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Initialization successful.
+[1/19/22, 22:31:24:003 EET] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[1/19/22, 22:31:24:006 EET] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[1/19/22, 22:31:24:007 EET] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[1/19/22, 22:31:24:163 EET] 00000037 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:31:26:210 EET] 0000002a io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:31:26:237 EET] 0000002a org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[1/19/22, 22:31:28:689 EET] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:31:28:689 EET] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:31:28:689 EET] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:31:28:700 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:31:28:701 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:28:758 EET] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:31:28:797 EET] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application demo started in 5.574 seconds.
+[1/19/22, 22:31:28:821 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9080.
+[1/19/22, 22:31:28:836 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9443.
+[1/19/22, 22:31:28:862 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.0, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.0, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[1/19/22, 22:31:28:862 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 10.022 seconds.
+[1/19/22, 22:31:28:863 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The demo server is ready to run a smarter planet. The demo server started in 11.870 seconds.
+[1/19/22, 22:31:29:090 EET] 00000038 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:113 EET] 00000033 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:135 EET] 0000002c com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:240 EET] 00000039 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:241 EET] 00000037 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:285 EET] 0000002d com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:285 EET] 00000029 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:345 EET] 0000002e com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:399 EET] 00000026 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:406 EET] 00000026 com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /favicon.ico
+[1/19/22, 22:31:29:574 EET] 00000028 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:29:614 EET] 0000002c com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:31:060 EET] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:31:31:170 EET] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:31:31:177 EET] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:31:31:178 EET] 00000030 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:31:31:259 EET] 0000002b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:31:32:474 EET] 00000030 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:31:33:064 EET] 00000030 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:31:33:064 EET] 00000030 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:31:33:064 EET] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:31:33:065 EET] 0000002f com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:31:33:066 EET] 0000002f com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:31:33:084 EET] 0000002f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 1.907 seconds.
+[1/19/22, 22:31:33:131 EET] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:31:33:645 EET] 00000039 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:31:34:063 EET] 00000039 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/19/22, 22:31:34:258 EET] 00000039 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo] [/] [com.example.demo.DemoRestApplication]: Initialization successful.
+[1/19/22, 22:31:34:768 EET] 00000039 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=demo, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=192.168.1.23}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/19/22, 22:31:34:769 EET] 00000039 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the demo application.  Tracing information is sent to localhost:6831.
+[1/19/22, 22:31:35:189 EET] 00000039 SystemOut                                                    O Formular de Consimtamant.pdf
+[1/19/22, 22:31:35:189 EET] 00000039 SystemOut                                                    O GDPR SCPA.pdf
+[1/19/22, 22:31:35:189 EET] 00000039 SystemOut                                                    O buletin-580x414.png
+[1/19/22, 22:31:35:189 EET] 00000039 SystemOut                                                    O hw2 (2).pdf
+[1/19/22, 22:31:35:189 EET] 00000039 SystemOut                                                    O MP_FII-ISS-SD2_20_22_19.01.2022.pdf
+[1/19/22, 22:36:07:960 EET] 00000056 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
+[1/19/22, 22:42:55:098 EET] 0000006e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:42:55:270 EET] 0000006e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo] [/] [com.example.demo.DemoRestApplication]: Destroy successful.
+[1/19/22, 22:42:55:324 EET] 0000006e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:42:55:379 EET] 0000006e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:42:55:379 EET] 0000006e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:42:55:556 EET] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:42:57:480 EET] 0000006e io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:42:58:468 EET] 0000006e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:42:58:469 EET] 0000006e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:42:58:469 EET] 0000006e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:42:58:471 EET] 0000007b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:42:58:471 EET] 0000007b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:42:58:503 EET] 0000007b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 3.125 seconds.
+[1/19/22, 22:42:58:607 EET] 0000006e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:46:23:703 EET] 00000067 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:46:23:709 EET] 00000067 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:46:23:717 EET] 00000067 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:46:23:717 EET] 00000067 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:46:23:780 EET] 00000074 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:46:26:298 EET] 00000067 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:46:28:050 EET] 00000067 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:46:28:050 EET] 00000067 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:46:28:050 EET] 00000067 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:46:28:052 EET] 0000006c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:46:28:053 EET] 0000006c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:46:28:072 EET] 0000006c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 4.355 seconds.
+[1/19/22, 22:46:28:339 EET] 00000057 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:46:53:586 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:46:53:593 EET] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:46:53:612 EET] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:46:53:612 EET] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:46:53:670 EET] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:46:54:863 EET] 00000029 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:46:55:518 EET] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:46:55:518 EET] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:46:55:518 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:46:55:520 EET] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:46:55:520 EET] 0000002c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:46:55:546 EET] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 1.934 seconds.
+[1/19/22, 22:46:55:572 EET] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:47:16:901 EET] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:47:16:907 EET] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:47:16:913 EET] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:47:16:913 EET] 0000002e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:47:17:251 EET] 00000074 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:47:18:301 EET] 0000002e io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:47:18:958 EET] 0000002e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:47:18:958 EET] 0000002e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:47:18:959 EET] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:47:18:959 EET] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:47:18:960 EET] 0000002c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:47:18:984 EET] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 2.071 seconds.
+[1/19/22, 22:47:19:183 EET] 0000006b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:47:39:310 EET] 00000071 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:47:39:369 EET] 00000071 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:47:39:385 EET] 00000071 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:47:39:385 EET] 00000071 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:47:39:468 EET] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:47:42:139 EET] 00000071 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:47:43:846 EET] 00000071 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:47:43:846 EET] 00000071 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:47:43:846 EET] 00000071 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:47:43:847 EET] 00000062 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:47:43:848 EET] 00000062 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:47:43:892 EET] 00000062 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 4.507 seconds.
+[1/19/22, 22:47:43:919 EET] 00000071 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:49:09:000 EET] 0000006c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:49:09:007 EET] 0000006c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:49:09:023 EET] 0000006c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:49:09:024 EET] 0000006c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:49:09:078 EET] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:49:10:217 EET] 0000006c io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:49:10:721 EET] 0000006c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:49:10:721 EET] 0000006c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:49:10:721 EET] 0000006c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:49:10:722 EET] 00000066 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:49:10:723 EET] 00000066 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:49:10:742 EET] 00000066 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 1.719 seconds.
+[1/19/22, 22:49:10:798 EET] 00000067 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:50:08:196 EET] 00000057 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/19/22, 22:50:08:244 EET] 00000057 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo] [/] [com.example.demo.DemoRestApplication]: Initialization successful.
+[1/19/22, 22:50:08:931 EET] 00000057 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=demo, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=192.168.1.23}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/19/22, 22:50:08:947 EET] 00000057 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the demo application.  Tracing information is sent to localhost:6831.
+[1/19/22, 22:50:09:347 EET] 00000057 SystemOut                                                    O Formular de Consimtamant.pdf
+[1/19/22, 22:50:09:347 EET] 00000057 SystemOut                                                    O GDPR SCPA.pdf
+[1/19/22, 22:50:09:347 EET] 00000057 SystemOut                                                    O buletin-580x414.png
+[1/19/22, 22:50:09:348 EET] 00000057 SystemOut                                                    O hw2 (2).pdf
+[1/19/22, 22:50:09:348 EET] 00000057 SystemOut                                                    O MP_FII-ISS-SD2_20_22_19.01.2022.pdf
+[1/19/22, 22:54:40:441 EET] 0000007b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/19/22, 22:54:40:451 EET] 0000007b com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo] [/] [com.example.demo.DemoRestApplication]: Destroy successful.
+[1/19/22, 22:54:40:470 EET] 0000007b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo has stopped successfully.
+[1/19/22, 22:54:40:555 EET] 0000007b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo.
+[1/19/22, 22:54:40:555 EET] 0000007b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo application is using the loose application definition at the D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\apps\demo.war.xml location.
+[1/19/22, 22:54:40:611 EET] 00000066 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:54:42:666 EET] 0000007b io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo was processed and an OpenAPI document was produced.
+[1/19/22, 22:54:43:681 EET] 0000007b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo.
+[1/19/22, 22:54:43:681 EET] 0000007b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo has been bound to default_host.
+[1/19/22, 22:54:43:681 EET] 0000007b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/19/22, 22:54:43:682 EET] 00000071 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/19/22, 22:54:43:683 EET] 00000071 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/19/22, 22:54:43:743 EET] 00000071 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo updated in 3.188 seconds.
+[1/19/22, 22:54:43:845 EET] 0000007b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\demo\target\liberty\wlp\usr\servers\demo\logs\state\plugin-cfg.xml.
+[1/19/22, 22:55:13:520 EET] 00000067 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/19/22, 22:55:13:525 EET] 00000067 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo] [/] [com.example.demo.DemoRestApplication]: Initialization successful.
+[1/19/22, 22:55:13:744 EET] 00000067 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=demo, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=192.168.1.23}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/19/22, 22:55:13:744 EET] 00000067 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the demo application.  Tracing information is sent to localhost:6831.
+[1/19/22, 22:55:14:263 EET] 00000067 SystemOut                                                    O Formular de Consimtamant.pdf
+[1/19/22, 22:55:14:263 EET] 00000067 SystemOut                                                    O GDPR SCPA.pdf
+[1/19/22, 22:55:14:263 EET] 00000067 SystemOut                                                    O buletin-580x414.png
+[1/19/22, 22:55:14:263 EET] 00000067 SystemOut                                                    O hw2 (2).pdf
+[1/19/22, 22:55:14:263 EET] 00000067 SystemOut                                                    O MP_FII-ISS-SD2_20_22_19.01.2022.pdf
+[1/19/22, 23:01:17:086 EET] 00000066 com.ibm.ws.session.WASSessionCore                            W Detected JSESSIONID with invalid length; expected length of 23, found 24, setting: eba7bda93254b1fa6e17ee4c to null.
