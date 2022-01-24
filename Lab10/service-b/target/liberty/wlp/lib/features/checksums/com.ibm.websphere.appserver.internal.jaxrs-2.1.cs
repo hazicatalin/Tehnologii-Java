@@ -1,0 +1,19 @@
+#Sun Jan 23 12:36:11 EET 2022
+lib/com.ibm.ws.org.apache.cxf.cxf.rt.rs.client.3.2_1.0.60.jar=115ad4b8fca14185e85d36e73b59e227
+lib/com.ibm.ws.org.apache.cxf.cxf.rt.frontend.jaxrs.3.2_1.0.60.jar=4fe9b1220343490d55e4f2c2973def12
+lib/com.ibm.ws.org.apache.cxf.cxf.rt.rs.service.description.3.2_1.0.60.jar=ebe0da8df48257cc56b15d9bdd0b724b
+lib/com.ibm.ws.jaxrs.2.x.config_1.0.60.jar=0ba67b6c61a7f9cb62c8de3b291f8563
+lib/com.ibm.ws.jaxrs.2.0.web_1.0.60.jar=861bc9d786aec63762870804d028be15
+bin/jaxrs/wadl2java=35a2ae6f7cd324be11da198b63b6478d
+lib/com.ibm.ws.org.apache.cxf.cxf.tools.wadlto.jaxrs.3.2_1.0.60.jar=1e0608735ee10a0380d60ce24c464f4b
+bin/jaxrs/wadl2java.bat=6876bbb49c8a6e92bed8182973f380b6
+lib/com.ibm.ws.security.authorization.util_1.0.60.jar=95347e95607a25f7ff37e2da72a1ac86
+lib/com.ibm.ws.jaxrs.2.0.server_1.0.60.jar=f61d994f3cc62a87c869762ced0cad2d
+bin/jaxrs/tools/wadl2java.jar=7c25a99fd11513e72d7253ab113e534b
+lib/com.ibm.ws.org.apache.cxf.cxf.tools.common.3.2_1.0.60.jar=6c8b6c4464a9ff2c7f51f4ccf5802e1a
+lib/features/com.ibm.websphere.appserver.internal.jaxrs-2.1.mf=207c039b7159f725b112003e52c0934e
+lib/com.ibm.ws.jaxrs.2.1.common_1.0.60.jar=6ae18b87f89f466b59f2e9bdc6e19b19
+lib/com.ibm.ws.org.apache.cxf.cxf.rt.rs.sse.3.2_1.0.60.jar=2cfffc7d87967bf13217dfb867baab29
+dev/api/ibm/com.ibm.websphere.appserver.api.jaxrs20_1.1.60.jar=ca64c83d87dffcf936e640ca4cb42f4a
+lib/com.ibm.ws.jaxrs.2.0.client_1.0.60.jar=5a5e66c75c4b584948e1761ca59b705b
+lib/com.ibm.ws.jaxrs.2.0.tools_1.0.60.jar=240a40105141b4f064c5dddb778dbdb8

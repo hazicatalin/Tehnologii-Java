@@ -1,0 +1,117 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = D:/Facultate/Java/Lab10/service-b/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-17.0.1
+java.version = 17.0.1
+java.runtime = Java(TM) SE Runtime Environment (17.0.1+12-LTS-39)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 11880@DESKTOP-EQQIBCR
+********************************************************************************
+[1/23/22, 12:37:48:235 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server Lab10 has been launched.
+[1/23/22, 12:37:50:696 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2.77 seconds
+[1/23/22, 12:37:50:746 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[1/23/22, 12:37:53:069 EET] 0000001e .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/23/22, 12:37:53:071 EET] 0000001b .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/23/22, 12:37:53:153 EET] 0000001a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[1/23/22, 12:37:53:356 EET] 0000001d com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[1/23/22, 12:37:53:970 EET] 0000001e .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[1/23/22, 12:37:53:970 EET] 0000001d rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: The MicroProfile JWT version 1.2 mpConfigProxy processed successfully.
+[1/23/22, 12:37:54:058 EET] 0000001b com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[1/23/22, 12:37:54:064 EET] 0000001b com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[1/23/22, 12:37:54:066 EET] 0000001b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/23/22, 12:37:54:244 EET] 00000029 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[1/23/22, 12:37:54:279 EET] 0000001a ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[1/23/22, 12:37:54:545 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: D:/Facultate/Java/Lab10/service-b/target/liberty/wlp/usr/servers/Lab10/resources/security/public.jks of type: JKS
+[1/23/22, 12:37:54:579 EET] 0000001a com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[1/23/22, 12:37:54:608 EET] 0000001a com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[1/23/22, 12:37:54:638 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[1/23/22, 12:37:54:641 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully processed.
+[1/23/22, 12:37:54:641 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[1/23/22, 12:37:54:675 EET] 0000001a com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[1/23/22, 12:37:54:883 EET] 00000029 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 0.640 seconds. LTPA key file: D:/Facultate/Java/Lab10/service-b/target/liberty/wlp/usr/servers/Lab10/resources/security/ltpa.keys
+[1/23/22, 12:37:54:888 EET] 00000029 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.648 seconds.
+[1/23/22, 12:37:55:100 EET] 0000001a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[1/23/22, 12:37:55:188 EET] 0000001a .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[1/23/22, 12:37:55:745 EET] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab10.
+[1/23/22, 12:37:55:746 EET] 00000030 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab10 application is using the loose application definition at the D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\apps\Lab10.war.xml location.
+[1/23/22, 12:37:56:249 EET] 0000002f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[1/23/22, 12:37:56:249 EET] 0000002d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[1/23/22, 12:37:56:253 EET] 0000002d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[1/23/22, 12:37:56:253 EET] 0000002f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[1/23/22, 12:37:56:255 EET] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/ibm/api/
+[1/23/22, 12:37:56:258 EET] 0000002f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/metrics/
+[1/23/22, 12:37:56:266 EET] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[1/23/22, 12:37:56:268 EET] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[1/23/22, 12:37:56:268 EET] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[1/23/22, 12:37:56:268 EET] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/openapi/ui/
+[1/23/22, 12:37:56:268 EET] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[1/23/22, 12:37:56:269 EET] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/jwt/
+[1/23/22, 12:37:56:272 EET] 0000002e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[1/23/22, 12:37:56:273 EET] 0000002e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[1/23/22, 12:37:56:273 EET] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/health/
+[1/23/22, 12:37:56:269 EET] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[1/23/22, 12:37:56:275 EET] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[1/23/22, 12:37:56:276 EET] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/openapi/
+[1/23/22, 12:37:56:370 EET] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[1/23/22, 12:37:56:370 EET] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[1/23/22, 12:37:56:371 EET] 0000003a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[1/23/22, 12:37:56:371 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[1/23/22, 12:37:56:371 EET] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[1/23/22, 12:37:56:371 EET] 00000039 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[1/23/22, 12:37:56:421 EET] 0000002a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:37:56:438 EET] 00000039 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:37:56:438 EET] 00000028 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:37:56:440 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:37:56:440 EET] 0000003a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:37:56:441 EET] 00000029 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:37:56:453 EET] 00000029 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/23/22, 12:37:56:637 EET] 00000039 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[1/23/22, 12:37:56:640 EET] 0000002e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[1/23/22, 12:37:56:641 EET] 0000002e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[1/23/22, 12:37:56:645 EET] 0000002e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[1/23/22, 12:37:56:645 EET] 0000002a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Initialization successful.
+[1/23/22, 12:37:56:859 EET] 00000034 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\logs\state\plugin-cfg.xml.
+[1/23/22, 12:37:58:276 EET] 00000030 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab10 was processed and an OpenAPI document was produced.
+[1/23/22, 12:37:58:305 EET] 00000030 org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[1/23/22, 12:38:00:254 EET] 00000030 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: The following interfaces are configured as RequestScoped which will result in slower performance:  Consider using ApplicationScoped for better performance.
+[1/23/22, 12:38:00:267 EET] 00000030 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab10.
+[1/23/22, 12:38:00:267 EET] 00000030 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab10 has been bound to default_host.
+[1/23/22, 12:38:00:267 EET] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/
+[1/23/22, 12:38:00:271 EET] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/23/22, 12:38:00:271 EET] 00000032 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:38:00:310 EET] 00000032 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application Lab10 started in 4.565 seconds.
+[1/23/22, 12:38:00:331 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9081.
+[1/23/22, 12:38:00:334 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9444.
+[1/23/22, 12:38:00:357 EET] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\logs\state\plugin-cfg.xml.
+[1/23/22, 12:38:00:368 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.0, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.0, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[1/23/22, 12:38:00:368 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 9.674 seconds.
+[1/23/22, 12:38:00:369 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The Lab10 server is ready to run a smarter planet. The Lab10 server started in 12.444 seconds.
+[1/23/22, 12:38:02:543 EET] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9081/
+[1/23/22, 12:38:02:594 EET] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab10 has stopped successfully.
+[1/23/22, 12:38:02:601 EET] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab10.
+[1/23/22, 12:38:02:602 EET] 0000002c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab10 application is using the loose application definition at the D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\apps\Lab10.war.xml location.
+[1/23/22, 12:38:02:647 EET] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\logs\state\plugin-cfg.xml.
+[1/23/22, 12:38:03:655 EET] 0000002c io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab10 was processed and an OpenAPI document was produced.
+[1/23/22, 12:38:04:137 EET] 0000002c m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: The following interfaces are configured as RequestScoped which will result in slower performance:  Consider using ApplicationScoped for better performance.
+[1/23/22, 12:38:04:142 EET] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab10.
+[1/23/22, 12:38:04:142 EET] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab10 has been bound to default_host.
+[1/23/22, 12:38:04:142 EET] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/
+[1/23/22, 12:38:04:143 EET] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/23/22, 12:38:04:143 EET] 00000032 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/23/22, 12:38:04:164 EET] 00000032 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab10 updated in 1.563 seconds.
+[1/23/22, 12:38:04:203 EET] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\logs\state\plugin-cfg.xml.
+[1/24/22, 11:39:22:462 EET] 00000ef1 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9081/
+[1/24/22, 11:39:39:341 EET] 00000ef1 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab10 has stopped successfully.
+[1/24/22, 11:39:48:098 EET] 00000ef1 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab10.
+[1/24/22, 11:39:48:146 EET] 00000ef1 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab10 application is using the loose application definition at the D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\apps\Lab10.war.xml location.
+[1/24/22, 11:40:18:348 EET] 00001070 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0022W: Application Lab10 has not started in 30.063 seconds.
+[1/24/22, 11:40:30:041 EET] 0000106e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\logs\state\plugin-cfg.xml.
+[1/24/22, 11:41:01:075 EET] 00000ef1 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab10 was processed and an OpenAPI document was produced.
+[1/24/22, 11:41:32:282 EET] 00000ef1 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: The following interfaces are configured as RequestScoped which will result in slower performance:  Consider using ApplicationScoped for better performance.
+[1/24/22, 11:41:32:891 EET] 00000ef1 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab10.
+[1/24/22, 11:41:32:914 EET] 00000ef1 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab10 has been bound to default_host.
+[1/24/22, 11:41:32:988 EET] 00000ef1 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9081/
+[1/24/22, 11:41:33:372 EET] 00000ef1 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab10\service-b\target\liberty\wlp\usr\servers\Lab10\logs\state\plugin-cfg.xml.
+[1/24/22, 11:41:33:487 EET] 00001042 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/24/22, 11:41:33:605 EET] 00001042 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/24/22, 11:41:34:139 EET] 00001042 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab10 updated in 106.030 seconds.
