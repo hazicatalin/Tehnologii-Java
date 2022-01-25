@@ -1,0 +1,421 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = D:/Facultate/Java/Lab11B/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-17.0.1
+java.version = 17.0.1
+java.runtime = Java(TM) SE Runtime Environment (17.0.1+12-LTS-39)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 4672@DESKTOP-EQQIBCR
+********************************************************************************
+[1/25/22, 20:52:50:433 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server Lab11B has been launched.
+[1/25/22, 20:52:56:989 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 7.081 seconds
+[1/25/22, 20:52:57:105 EET] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[1/25/22, 20:53:07:238 EET] 00000039 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/25/22, 20:53:07:240 EET] 00000038 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/25/22, 20:53:07:330 EET] 0000001a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[1/25/22, 20:53:07:578 EET] 0000003a com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[1/25/22, 20:53:08:416 EET] 00000038 rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: The MicroProfile JWT version 1.2 mpConfigProxy processed successfully.
+[1/25/22, 20:53:08:423 EET] 00000038 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[1/25/22, 20:53:08:520 EET] 0000003a com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[1/25/22, 20:53:08:526 EET] 0000003a com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[1/25/22, 20:53:08:528 EET] 0000003a com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/25/22, 20:53:08:924 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[1/25/22, 20:53:09:006 EET] 00000032 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[1/25/22, 20:53:09:220 EET] 0000001a ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[1/25/22, 20:53:10:577 EET] 0000001a com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[1/25/22, 20:53:10:667 EET] 0000001a com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[1/25/22, 20:53:10:918 EET] 0000001a com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[1/25/22, 20:53:12:007 EET] 00000032 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 3.000 seconds. LTPA key file: D:/Facultate/Java/Lab11B/target/liberty/wlp/usr/servers/Lab11B/resources/security/ltpa.keys
+[1/25/22, 20:53:12:044 EET] 00000032 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 3.049 seconds.
+[1/25/22, 20:53:13:280 EET] 0000001a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[1/25/22, 20:53:13:815 EET] 0000001a .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[1/25/22, 20:53:14:176 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 5.252 seconds. SSL key file: D:/Facultate/Java/Lab11B/target/liberty/wlp/usr/servers/Lab11B/resources/security/public.jks
+[1/25/22, 20:53:14:178 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: D:/Facultate/Java/Lab11B/target/liberty/wlp/usr/servers/Lab11B/resources/security/public.jks of type: JKS
+[1/25/22, 20:53:14:639 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[1/25/22, 20:53:14:647 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully processed.
+[1/25/22, 20:53:14:650 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[1/25/22, 20:53:16:057 EET] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 20:53:16:059 EET] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 20:53:16:897 EET] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[1/25/22, 20:53:16:899 EET] 00000033 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[1/25/22, 20:53:16:897 EET] 00000031 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[1/25/22, 20:53:16:897 EET] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[1/25/22, 20:53:16:903 EET] 00000033 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[1/25/22, 20:53:16:903 EET] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[1/25/22, 20:53:16:897 EET] 00000034 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[1/25/22, 20:53:16:903 EET] 00000031 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[1/25/22, 20:53:16:903 EET] 00000034 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[1/25/22, 20:53:16:903 EET] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[1/25/22, 20:53:16:898 EET] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[1/25/22, 20:53:16:905 EET] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[1/25/22, 20:53:16:905 EET] 00000033 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/openapi/
+[1/25/22, 20:53:16:914 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/metrics/
+[1/25/22, 20:53:16:914 EET] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/ibm/api/
+[1/25/22, 20:53:16:915 EET] 00000034 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/openapi/ui/
+[1/25/22, 20:53:16:915 EET] 00000031 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/jwt/
+[1/25/22, 20:53:16:916 EET] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/health/
+[1/25/22, 20:53:17:115 EET] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[1/25/22, 20:53:17:115 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[1/25/22, 20:53:17:115 EET] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[1/25/22, 20:53:17:115 EET] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[1/25/22, 20:53:17:115 EET] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[1/25/22, 20:53:17:115 EET] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[1/25/22, 20:53:17:198 EET] 00000032 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:17:225 EET] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:17:226 EET] 00000029 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:17:227 EET] 00000025 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:17:228 EET] 0000002c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:17:229 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:17:244 EET] 0000002c com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/25/22, 20:53:17:529 EET] 0000002e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[1/25/22, 20:53:17:531 EET] 00000032 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[1/25/22, 20:53:17:532 EET] 00000032 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[1/25/22, 20:53:17:535 EET] 00000032 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[1/25/22, 20:53:17:535 EET] 00000025 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Initialization successful.
+[1/25/22, 20:53:17:551 EET] 0000002d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 20:53:24:644 EET] 00000026 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 20:53:24:825 EET] 00000026 org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[1/25/22, 20:53:31:721 EET] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 20:53:31:722 EET] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 20:53:31:723 EET] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 20:53:31:754 EET] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 20:53:31:755 EET] 00000025 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:31:943 EET] 00000031 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 20:53:31:975 EET] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application Lab11B started in 15.918 seconds.
+[1/25/22, 20:53:32:096 EET] 00000028 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9051.
+[1/25/22, 20:53:32:105 EET] 00000028 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9423.
+[1/25/22, 20:53:32:229 EET] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.0, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.0, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[1/25/22, 20:53:32:231 EET] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 35.391 seconds.
+[1/25/22, 20:53:32:233 EET] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The Lab11B server is ready to run a smarter planet. The Lab11B server started in 42.326 seconds.
+[1/25/22, 20:53:35:033 EET] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 20:53:35:087 EET] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 20:53:35:100 EET] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 20:53:35:101 EET] 00000025 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 20:53:35:140 EET] 00000033 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 20:53:36:275 EET] 00000025 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 20:53:36:826 EET] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 20:53:36:826 EET] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 20:53:36:827 EET] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 20:53:36:827 EET] 00000034 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 20:53:36:828 EET] 00000034 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 20:53:36:846 EET] 00000034 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 1.746 seconds.
+[1/25/22, 20:53:36:873 EET] 00000030 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:03:51:114 EET] 00000074 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:04:24:851 EET] 00000074 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:04:28:754 EET] 00000074 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:04:28:850 EET] 00000074 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:04:57:861 EET] 00000087 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:04:58:770 EET] 0000007c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0022W: Application Lab11B has not started in 30.015 seconds.
+[1/25/22, 21:05:12:368 EET] 00000074 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:05:57:720 EET] 00000074 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:05:57:759 EET] 00000074 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:05:58:051 EET] 00000074 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:06:00:334 EET] 00000096 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:06:01:035 EET] 00000096 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:06:01:574 EET] 0000007c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:06:02:913 EET] 00000096 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 94.158 seconds.
+[1/25/22, 21:22:50:168 EET] 000000db .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/25/22, 21:22:58:712 EET] 000000db com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Initialization successful.
+[1/25/22, 21:23:03:213 EET] 000000cd SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/25/22, 21:23:03:581 EET] 000000cd SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/25/22, 21:23:07:163 EET] 000000cd SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/25/22, 21:23:07:176 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/25/22, 21:23:07:207 EET] 000000cd SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/25/22, 21:23:07:219 EET] 000000cd SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/25/22, 21:23:07:238 EET] 000000cd SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/25/22, 21:23:07:535 EET] 000000cd SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/25/22, 21:23:07:535 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/25/22, 21:23:07:535 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/25/22, 21:23:07:535 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/25/22, 21:23:07:535 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/25/22, 21:23:07:535 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/25/22, 21:23:07:544 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/25/22, 21:23:07:544 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/25/22, 21:23:07:595 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/25/22, 21:23:07:595 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/25/22, 21:23:07:595 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/25/22, 21:23:07:595 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[1/25/22, 21:23:07:596 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+[1/25/22, 21:23:07:596 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[1/25/22, 21:23:07:596 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/25/22, 21:23:07:596 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/25/22, 21:23:07:597 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/25/22, 21:23:07:622 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/25/22, 21:23:07:623 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/25/22, 21:23:07:623 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/25/22, 21:23:07:623 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/25/22, 21:23:07:623 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/25/22, 21:23:07:623 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/25/22, 21:23:07:623 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/25/22, 21:23:07:623 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/25/22, 21:23:07:630 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/25/22, 21:23:07:639 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/25/22, 21:23:07:640 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/25/22, 21:23:07:668 EET] 000000cd SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/25/22, 21:23:07:668 EET] 000000cd SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/25/22, 21:23:07:668 EET] 000000cd SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/25/22, 21:23:07:682 EET] 000000cd SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/25/22, 21:23:07:682 EET] 000000db SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/25/22, 21:23:07:682 EET] 000000db SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/25/22, 21:23:07:683 EET] 000000db SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/25/22, 21:23:07:718 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/25/22, 21:23:07:719 EET] 000000db SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/25/22, 21:23:07:719 EET] 000000db SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/25/22, 21:23:07:719 EET] 000000db SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/25/22, 21:23:07:731 EET] 000000db SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/25/22, 21:23:07:731 EET] 000000db SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/25/22, 21:23:07:731 EET] 000000db SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/25/22, 21:23:07:731 EET] 000000db SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/25/22, 21:23:07:732 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/25/22, 21:23:07:732 EET] 000000db SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/25/22, 21:23:07:732 EET] 000000db SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/25/22, 21:23:07:732 EET] 000000db SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/25/22, 21:23:07:732 EET] 000000db SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/25/22, 21:23:07:733 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/25/22, 21:23:07:733 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/25/22, 21:23:07:733 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/25/22, 21:23:07:733 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/25/22, 21:23:07:733 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/25/22, 21:23:07:733 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/25/22, 21:23:07:734 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/25/22, 21:23:07:734 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/25/22, 21:23:07:734 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/25/22, 21:23:07:734 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/25/22, 21:23:07:734 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[1/25/22, 21:23:07:765 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+[1/25/22, 21:23:07:766 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[1/25/22, 21:23:07:777 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/25/22, 21:23:07:777 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/25/22, 21:23:07:777 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/25/22, 21:23:07:777 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/25/22, 21:23:07:777 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/25/22, 21:23:07:777 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/25/22, 21:23:07:777 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/25/22, 21:23:07:778 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/25/22, 21:23:07:778 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/25/22, 21:23:07:778 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/25/22, 21:23:07:778 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/25/22, 21:23:07:779 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/25/22, 21:23:07:779 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/25/22, 21:23:07:779 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/25/22, 21:23:07:779 EET] 000000db SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/25/22, 21:23:07:779 EET] 000000db SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/25/22, 21:23:07:780 EET] 000000db SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/25/22, 21:23:07:780 EET] 000000db SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/25/22, 21:23:46:795 EET] 000000b4 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:23:47:617 EET] 000000b4 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Destroy successful.
+[1/25/22, 21:23:51:319 EET] 000000b4 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:23:52:131 EET] 000000b4 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:23:52:198 EET] 000000b4 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:23:56:496 EET] 000000ef com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:24:09:795 EET] 000000b4 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:24:18:045 EET] 000000b4 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:24:18:045 EET] 000000b4 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:24:18:046 EET] 000000b4 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:24:18:241 EET] 000000c7 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:24:18:334 EET] 000000ee com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:24:18:351 EET] 000000ee com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:24:18:563 EET] 000000ee com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 26.432 seconds.
+[1/25/22, 21:24:18:605 EET] 000000a3 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:24:18:653 EET] 000000a3 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:24:18:660 EET] 000000a3 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:24:18:660 EET] 000000a3 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:24:18:842 EET] 000000ef com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:24:21:358 EET] 000000a3 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:24:22:607 EET] 000000a3 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:24:22:607 EET] 000000a3 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:24:22:607 EET] 000000a3 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:24:22:608 EET] 000000cd com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:24:22:608 EET] 000000cd com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:24:22:883 EET] 000000cd com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 4.223 seconds.
+[1/25/22, 21:24:22:947 EET] 000000eb com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:25:27:263 EET] 000000c7 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:25:27:267 EET] 000000c7 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:25:27:272 EET] 000000c7 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:25:27:272 EET] 000000c7 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:25:27:445 EET] 000000a3 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:25:30:482 EET] 000000c7 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:25:34:871 EET] 000000c7 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:25:34:872 EET] 000000c7 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:25:34:872 EET] 000000c7 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:25:34:872 EET] 000000b4 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:25:34:873 EET] 000000b4 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:25:39:506 EET] 000000c7 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:25:39:512 EET] 000000b4 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 12.240 seconds.
+[1/25/22, 21:25:39:974 EET] 00000103 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:25:39:981 EET] 00000103 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:25:39:985 EET] 00000103 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:25:39:986 EET] 00000103 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:25:40:443 EET] 000000ff com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:25:47:660 EET] 00000103 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:25:48:536 EET] 00000103 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:25:48:536 EET] 00000103 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:25:48:536 EET] 00000103 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:25:48:537 EET] 000000c7 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:25:48:538 EET] 000000c7 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:25:48:555 EET] 000000c7 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 8.570 seconds.
+[1/25/22, 21:25:48:678 EET] 000000a3 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:25:58:698 EET] 000000ff .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/25/22, 21:25:58:717 EET] 000000ff com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Initialization successful.
+[1/25/22, 21:25:58:745 EET] 000000ff SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/25/22, 21:25:58:745 EET] 000000ff SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/25/22, 21:25:58:745 EET] 000000ff SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/25/22, 21:25:58:746 EET] 000000ff SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/25/22, 21:25:58:747 EET] 000000ff SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/25/22, 21:25:58:747 EET] 000000ff SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/25/22, 21:25:58:747 EET] 000000ff SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/25/22, 21:25:58:747 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/25/22, 21:25:58:747 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/25/22, 21:25:58:747 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/25/22, 21:25:58:748 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/25/22, 21:25:58:748 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/25/22, 21:25:58:748 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/25/22, 21:25:58:748 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/25/22, 21:25:58:748 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/25/22, 21:25:58:748 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/25/22, 21:25:58:748 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/25/22, 21:25:58:749 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/25/22, 21:25:58:750 EET] 000000ff SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/25/22, 21:25:58:751 EET] 000000ff SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/25/22, 21:25:58:751 EET] 000000ff SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/25/22, 21:27:10:035 EET] 000000c7 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:27:10:036 EET] 000000c7 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Destroy successful.
+[1/25/22, 21:27:10:042 EET] 000000c7 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:27:10:049 EET] 000000c7 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:27:10:049 EET] 000000c7 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:27:10:137 EET] 000000d0 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:27:12:417 EET] 000000c7 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:27:13:818 EET] 000000c7 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:27:13:818 EET] 000000c7 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:27:13:818 EET] 000000c7 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:27:13:819 EET] 000000b4 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:27:13:819 EET] 000000b4 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:27:13:855 EET] 000000b4 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 3.806 seconds.
+[1/25/22, 21:27:13:984 EET] 000000ce com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:27:18:759 EET] 000000c7 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:27:18:765 EET] 000000c7 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:27:18:770 EET] 000000c7 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:27:18:770 EET] 000000c7 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:27:18:848 EET] 0000011b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:27:21:677 EET] 000000c7 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:27:25:053 EET] 000000c7 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:27:25:077 EET] 000000c7 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:27:25:078 EET] 000000c7 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:27:25:313 EET] 000000d1 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:27:25:369 EET] 000000d1 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:27:25:856 EET] 000000d1 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 7.086 seconds.
+[1/25/22, 21:27:26:065 EET] 000000ff com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:27:26:101 EET] 000000ff com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:27:26:310 EET] 000000ff com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:27:26:311 EET] 000000ff bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:27:31:310 EET] 000000ff io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:27:36:655 EET] 000000ff com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:27:36:656 EET] 000000ff com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:27:36:656 EET] 000000ff com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:27:36:656 EET] 00000115 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:27:36:657 EET] 00000115 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:27:36:668 EET] 00000115 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 10.358 seconds.
+[1/25/22, 21:27:38:383 EET] 000000ff com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:27:39:216 EET] 000000ff .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/25/22, 21:27:39:223 EET] 000000ff com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Initialization successful.
+[1/25/22, 21:27:41:934 EET] 000000ff io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=Lab11B, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=172.26.224.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/25/22, 21:27:41:942 EET] 000000ff m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the Lab11B application.  Tracing information is sent to localhost:6831.
+[1/25/22, 21:27:42:110 EET] 000000ff SystemOut                                                    O Hazi
+[1/25/22, 21:36:59:906 EET] 000000ce com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:36:59:935 EET] 000000ce com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Destroy successful.
+[1/25/22, 21:36:59:959 EET] 000000ce com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:36:59:988 EET] 000000ce com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:36:59:989 EET] 000000ce bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:37:00:087 EET] 00000117 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:37:01:860 EET] 000000ce io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:37:02:862 EET] 000000ce com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:37:02:862 EET] 000000ce com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:37:02:862 EET] 000000ce com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:37:02:863 EET] 000000cd com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:37:02:872 EET] 000000cd com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:37:02:888 EET] 000000cd com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 2.900 seconds.
+[1/25/22, 21:37:02:949 EET] 00000098 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:37:02:966 EET] 000000d1 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:37:02:971 EET] 000000d1 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:37:02:977 EET] 000000d1 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:37:02:978 EET] 000000d1 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:37:03:061 EET] 000000b4 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:37:04:927 EET] 000000d1 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:37:05:957 EET] 000000d1 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:37:05:957 EET] 000000d1 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:37:05:958 EET] 000000d1 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:37:05:958 EET] 00000116 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:37:06:060 EET] 00000116 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:37:06:113 EET] 00000116 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 3.136 seconds.
+[1/25/22, 21:37:06:163 EET] 000000a3 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:54:55:304 EET] 000000b4 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/25/22, 21:54:55:463 EET] 000000b4 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Initialization successful.
+[1/25/22, 21:54:57:431 EET] 000000b4 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=Lab11B, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=172.26.224.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/25/22, 21:54:57:452 EET] 000000b4 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the Lab11B application.  Tracing information is sent to localhost:6831.
+[1/25/22, 21:56:44:271 EET] 00000186 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:56:44:274 EET] 00000186 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Destroy successful.
+[1/25/22, 21:56:44:320 EET] 00000186 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:56:44:348 EET] 00000186 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:56:44:348 EET] 00000186 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:56:44:679 EET] 000000cd com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:56:45:980 EET] 00000186 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:56:47:070 EET] 00000186 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:56:47:071 EET] 00000186 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:56:47:071 EET] 00000186 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:56:47:072 EET] 0000014f com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:56:47:072 EET] 0000014f com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:56:47:196 EET] 00000186 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:56:47:273 EET] 0000014f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 2.925 seconds.
+[1/25/22, 21:56:47:301 EET] 0000017b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9051/
+[1/25/22, 21:56:47:306 EET] 0000017b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Lab11B has stopped successfully.
+[1/25/22, 21:56:47:309 EET] 0000017b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Lab11B.
+[1/25/22, 21:56:47:309 EET] 0000017b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The Lab11B application is using the loose application definition at the D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\apps\Lab11B.war.xml location.
+[1/25/22, 21:56:47:509 EET] 00000183 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:56:49:194 EET] 0000017b io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application Lab11B was processed and an OpenAPI document was produced.
+[1/25/22, 21:56:49:874 EET] 0000017b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Lab11B.
+[1/25/22, 21:56:49:874 EET] 0000017b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Lab11B has been bound to default_host.
+[1/25/22, 21:56:49:874 EET] 0000017b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9051/
+[1/25/22, 21:56:49:875 EET] 000000a3 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/25/22, 21:56:49:875 EET] 000000a3 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/25/22, 21:56:49:889 EET] 000000a3 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Lab11B updated in 2.580 seconds.
+[1/25/22, 21:56:49:937 EET] 0000017b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\Lab11B\target\liberty\wlp\usr\servers\Lab11B\logs\state\plugin-cfg.xml.
+[1/25/22, 21:57:22:707 EET] 0000017a .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/25/22, 21:57:22:712 EET] 0000017a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Lab11B] [/] [com.example.Lab11B.Lab11BRestApplication]: Initialization successful.
+[1/25/22, 21:57:23:145 EET] 0000017a io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=Lab11B, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=172.26.224.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/25/22, 21:57:23:145 EET] 0000017a m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the Lab11B application.  Tracing information is sent to localhost:6831.
+[1/25/22, 22:01:39:789 EET] 00000187 SystemOut                                                    O Hazi
+[1/25/22, 22:01:41:090 EET] 00000182 SystemOut                                                    O Hazi
