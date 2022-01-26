@@ -1,0 +1,492 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = C:/Users/hazi_/Downloads/demo2/service-a/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-17.0.1
+java.version = 17.0.1
+java.runtime = Java(TM) SE Runtime Environment (17.0.1+12-LTS-39)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 16688@DESKTOP-EQQIBCR
+********************************************************************************
+[1/26/22, 19:25:12:946 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server demo2 has been launched.
+[1/26/22, 19:25:14:818 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2.232 seconds
+[1/26/22, 19:25:14:968 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[1/26/22, 19:25:17:223 EET] 0000001e .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/26/22, 19:25:17:224 EET] 0000001b .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/26/22, 19:25:17:322 EET] 0000001a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[1/26/22, 19:25:17:535 EET] 0000001d com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[1/26/22, 19:25:18:183 EET] 0000001c .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[1/26/22, 19:25:18:183 EET] 0000001b rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: The MicroProfile JWT version 1.2 mpConfigProxy processed successfully.
+[1/26/22, 19:25:18:226 EET] 0000001e com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[1/26/22, 19:25:18:231 EET] 0000001e com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[1/26/22, 19:25:18:233 EET] 0000001e com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/26/22, 19:25:18:413 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[1/26/22, 19:25:18:453 EET] 0000002a com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[1/26/22, 19:25:18:520 EET] 0000001a ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[1/26/22, 19:25:18:785 EET] 0000001a com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[1/26/22, 19:25:18:818 EET] 0000001a com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[1/26/22, 19:25:18:916 EET] 0000001a com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[1/26/22, 19:25:19:028 EET] 0000002a com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 0.575 seconds. LTPA key file: C:/Users/hazi_/Downloads/demo2/service-a/target/liberty/wlp/usr/servers/demo2/resources/security/ltpa.keys
+[1/26/22, 19:25:19:037 EET] 0000002a com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.589 seconds.
+[1/26/22, 19:25:19:394 EET] 0000001a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[1/26/22, 19:25:19:560 EET] 0000001a .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[1/26/22, 19:25:19:927 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 1.514 seconds. SSL key file: C:/Users/hazi_/Downloads/demo2/service-a/target/liberty/wlp/usr/servers/demo2/resources/security/public.jks
+[1/26/22, 19:25:19:928 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/Users/hazi_/Downloads/demo2/service-a/target/liberty/wlp/usr/servers/demo2/resources/security/public.jks of type: JKS
+[1/26/22, 19:25:20:075 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[1/26/22, 19:25:20:079 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully processed.
+[1/26/22, 19:25:20:080 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[1/26/22, 19:25:20:414 EET] 00000034 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo2.
+[1/26/22, 19:25:20:416 EET] 00000034 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo2 application is using the loose application definition at the C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\apps\demo2.war.xml location.
+[1/26/22, 19:25:20:815 EET] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[1/26/22, 19:25:20:825 EET] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[1/26/22, 19:25:20:815 EET] 00000031 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[1/26/22, 19:25:20:816 EET] 00000030 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[1/26/22, 19:25:20:825 EET] 00000031 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[1/26/22, 19:25:20:821 EET] 0000002f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[1/26/22, 19:25:20:825 EET] 00000030 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[1/26/22, 19:25:20:825 EET] 0000002f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[1/26/22, 19:25:20:827 EET] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/jwt/
+[1/26/22, 19:25:20:832 EET] 0000002f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/ui/
+[1/26/22, 19:25:20:832 EET] 00000032 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[1/26/22, 19:25:20:832 EET] 00000032 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[1/26/22, 19:25:20:832 EET] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/ibm/api/
+[1/26/22, 19:25:20:833 EET] 00000031 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/metrics/
+[1/26/22, 19:25:20:835 EET] 00000032 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/health/
+[1/26/22, 19:25:20:864 EET] 0000002e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[1/26/22, 19:25:20:864 EET] 0000002e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[1/26/22, 19:25:20:864 EET] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/
+[1/26/22, 19:25:20:979 EET] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[1/26/22, 19:25:20:979 EET] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[1/26/22, 19:25:20:979 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[1/26/22, 19:25:20:979 EET] 00000039 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[1/26/22, 19:25:20:980 EET] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[1/26/22, 19:25:20:979 EET] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[1/26/22, 19:25:21:027 EET] 0000002a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:21:042 EET] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:21:043 EET] 0000002c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:21:044 EET] 00000039 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:21:046 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:21:047 EET] 00000032 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:21:061 EET] 00000032 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/26/22, 19:25:21:236 EET] 0000002a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[1/26/22, 19:25:21:236 EET] 0000002e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Initialization successful.
+[1/26/22, 19:25:21:239 EET] 0000002a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[1/26/22, 19:25:21:239 EET] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[1/26/22, 19:25:21:242 EET] 0000002a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[1/26/22, 19:25:21:423 EET] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:25:27:992 EET] 00000034 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo2 was processed and an OpenAPI document was produced.
+[1/26/22, 19:25:28:050 EET] 00000034 org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[1/26/22, 19:25:35:396 EET] 00000034 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo2.
+[1/26/22, 19:25:35:396 EET] 00000034 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo2 has been bound to default_host.
+[1/26/22, 19:25:35:473 EET] 00000034 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/26/22, 19:25:35:596 EET] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/26/22, 19:25:35:596 EET] 00000028 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:36:352 EET] 00000034 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application demo2 started in 15.939 seconds.
+[1/26/22, 19:25:37:620 EET] 00000031 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:25:38:109 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9080.
+[1/26/22, 19:25:38:113 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9443.
+[1/26/22, 19:25:39:335 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.0, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.0, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[1/26/22, 19:25:39:336 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 24.522 seconds.
+[1/26/22, 19:25:39:336 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The demo2 server is ready to run a smarter planet. The demo2 server started in 26.754 seconds.
+[1/26/22, 19:25:41:820 EET] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/26/22, 19:25:41:918 EET] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo2 has stopped successfully.
+[1/26/22, 19:25:41:932 EET] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo2.
+[1/26/22, 19:25:41:932 EET] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo2 application is using the loose application definition at the C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\apps\demo2.war.xml location.
+[1/26/22, 19:25:41:950 EET] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:25:44:708 EET] 00000026 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo2 was processed and an OpenAPI document was produced.
+[1/26/22, 19:25:45:434 EET] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo2.
+[1/26/22, 19:25:45:434 EET] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo2 has been bound to default_host.
+[1/26/22, 19:25:45:434 EET] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/26/22, 19:25:45:435 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/26/22, 19:25:45:436 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:25:45:470 EET] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:25:45:478 EET] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo2 updated in 3.546 seconds.
+[1/26/22, 19:27:43:034 EET] 0000002c .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/26/22, 19:27:43:180 EET] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo2] [/] [com.example.demo2.Demo2RestApplication]: Initialization successful.
+[1/26/22, 19:27:43:410 EET] 0000002c SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/26/22, 19:27:43:411 EET] 0000002c SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/26/22, 19:27:43:436 EET] 0000002c SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/26/22, 19:27:43:436 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/26/22, 19:27:43:436 EET] 0000002c SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/26/22, 19:27:43:436 EET] 0000002c SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/26/22, 19:27:43:436 EET] 0000002c SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/26/22, 19:27:43:436 EET] 0000002c SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/26/22, 19:27:43:436 EET] 0000002c SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/26/22, 19:27:43:437 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/26/22, 19:27:43:438 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/26/22, 19:27:43:438 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/26/22, 19:27:43:438 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/26/22, 19:27:43:438 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/26/22, 19:27:43:438 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/26/22, 19:27:43:439 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/26/22, 19:27:43:439 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/26/22, 19:27:43:439 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/26/22, 19:27:43:440 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[1/26/22, 19:27:43:440 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+[1/26/22, 19:27:43:441 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[1/26/22, 19:27:43:441 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/26/22, 19:27:43:441 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/26/22, 19:27:43:442 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/26/22, 19:27:43:442 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/26/22, 19:27:43:443 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/26/22, 19:27:43:443 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/26/22, 19:27:43:444 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/26/22, 19:27:43:444 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/26/22, 19:27:43:445 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/26/22, 19:27:43:445 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/26/22, 19:27:43:445 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/26/22, 19:27:43:445 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/26/22, 19:27:43:445 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/26/22, 19:27:43:445 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/26/22, 19:27:43:446 EET] 0000002c SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/26/22, 19:27:43:446 EET] 0000002c SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/26/22, 19:27:43:446 EET] 0000002c SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/26/22, 19:27:43:446 EET] 0000002c SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/26/22, 19:27:51:744 EET] 00000028 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/26/22, 19:27:51:744 EET] 00000028 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/26/22, 19:27:51:744 EET] 00000028 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/26/22, 19:27:51:744 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/26/22, 19:27:51:744 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/26/22, 19:27:51:745 EET] 00000028 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/26/22, 19:27:51:746 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/26/22, 19:27:51:747 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/26/22, 19:27:51:748 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/26/22, 19:27:51:748 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/26/22, 19:27:51:748 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/26/22, 19:27:51:748 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/26/22, 19:27:51:748 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/26/22, 19:27:51:749 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/26/22, 19:27:51:749 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/26/22, 19:27:51:749 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/26/22, 19:27:51:749 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/26/22, 19:27:51:749 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/26/22, 19:27:51:749 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/26/22, 19:27:51:749 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/26/22, 19:27:51:750 EET] 00000028 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/26/22, 19:27:51:750 EET] 00000028 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/26/22, 19:27:51:750 EET] 00000028 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/26/22, 19:28:07:229 EET] 0000002c io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=demo2, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=172.26.224.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/26/22, 19:28:07:255 EET] 0000002c m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the demo2 application.  Tracing information is sent to localhost:6831.
+[1/26/22, 19:30:59:739 EET] 00000028 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/26/22, 19:30:59:740 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/26/22, 19:30:59:741 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[1/26/22, 19:30:59:742 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/26/22, 19:30:59:743 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/26/22, 19:30:59:744 EET] 00000028 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/26/22, 19:31:10:837 EET] 00000031 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/26/22, 19:31:10:837 EET] 00000031 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/26/22, 19:31:10:838 EET] 00000031 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/26/22, 19:31:10:838 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/26/22, 19:31:10:838 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/26/22, 19:31:10:838 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/26/22, 19:31:10:839 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/26/22, 19:31:10:840 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/26/22, 19:31:10:840 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/26/22, 19:31:10:840 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/26/22, 19:31:10:841 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/26/22, 19:31:10:841 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/26/22, 19:31:10:841 EET] 00000031 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/26/22, 19:31:10:841 EET] 00000031 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/26/22, 19:31:10:842 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/26/22, 19:31:10:843 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/26/22, 19:31:10:844 EET] 00000031 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/26/22, 19:31:10:845 EET] 00000031 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/26/22, 19:31:10:845 EET] 00000031 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/26/22, 19:31:13:757 EET] 00000031 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/26/22, 19:31:13:757 EET] 00000031 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/26/22, 19:31:13:757 EET] 00000031 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/26/22, 19:31:13:757 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/26/22, 19:31:13:757 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/26/22, 19:31:13:758 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+[1/26/22, 19:31:13:759 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/26/22, 19:31:13:760 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/26/22, 19:31:13:761 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/26/22, 19:31:13:761 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/26/22, 19:31:13:761 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/26/22, 19:31:13:761 EET] 00000031 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/26/22, 19:31:13:761 EET] 00000031 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/26/22, 19:31:13:761 EET] 00000031 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/26/22, 19:31:13:761 EET] 00000031 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/26/22, 19:35:07:751 EET] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/26/22, 19:35:07:769 EET] 00000039 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo2] [/] [com.example.demo2.Demo2RestApplication]: Destroy successful.
+[1/26/22, 19:35:07:787 EET] 00000039 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo2 has stopped successfully.
+[1/26/22, 19:35:07:813 EET] 00000039 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo2.
+[1/26/22, 19:35:07:814 EET] 00000039 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo2 application is using the loose application definition at the C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\apps\demo2.war.xml location.
+[1/26/22, 19:35:07:838 EET] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:35:11:686 EET] 00000039 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo2 was processed and an OpenAPI document was produced.
+[1/26/22, 19:35:13:933 EET] 00000039 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo2.
+[1/26/22, 19:35:13:946 EET] 00000039 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo2 has been bound to default_host.
+[1/26/22, 19:35:14:084 EET] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/26/22, 19:35:14:129 EET] 00000027 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/26/22, 19:35:14:130 EET] 00000027 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:35:14:333 EET] 00000039 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo2 updated in 6.520 seconds.
+[1/26/22, 19:35:14:848 EET] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:35:26:561 EET] 00000063 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/26/22, 19:35:26:569 EET] 00000063 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo2] [/] [com.example.demo2.Demo2RestApplication]: Initialization successful.
+[1/26/22, 19:35:26:795 EET] 00000063 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=demo2, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=172.26.224.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/26/22, 19:35:26:796 EET] 00000063 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the demo2 application.  Tracing information is sent to localhost:6831.
+[1/26/22, 19:44:05:352 EET] 00000063 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/26/22, 19:44:05:354 EET] 00000063 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo2] [/] [com.example.demo2.Demo2RestApplication]: Destroy successful.
+[1/26/22, 19:44:05:428 EET] 00000063 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo2 has stopped successfully.
+[1/26/22, 19:44:05:443 EET] 00000063 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo2.
+[1/26/22, 19:44:05:444 EET] 00000063 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo2 application is using the loose application definition at the C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\apps\demo2.war.xml location.
+[1/26/22, 19:44:05:494 EET] 00000097 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:44:08:702 EET] 00000063 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo2 was processed and an OpenAPI document was produced.
+[1/26/22, 19:44:09:633 EET] 00000063 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo2.
+[1/26/22, 19:44:09:633 EET] 00000063 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo2 has been bound to default_host.
+[1/26/22, 19:44:09:633 EET] 00000063 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/26/22, 19:44:09:635 EET] 00000097 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/26/22, 19:44:09:635 EET] 00000097 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:44:09:671 EET] 00000097 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo2 updated in 4.228 seconds.
+[1/26/22, 19:44:09:678 EET] 00000068 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:44:10:143 EET] 000000a1 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/26/22, 19:44:10:149 EET] 000000a1 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo2] [/] [com.example.demo2.Demo2RestApplication]: Initialization successful.
+[1/26/22, 19:44:10:406 EET] 000000a1 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=demo2, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=172.26.224.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/26/22, 19:44:10:406 EET] 000000a1 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the demo2 application.  Tracing information is sent to localhost:6831.
+[1/26/22, 19:48:18:976 EET] 00000097 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/26/22, 19:48:18:977 EET] 00000097 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/26/22, 19:48:18:978 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/26/22, 19:48:18:979 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/26/22, 19:48:18:980 EET] 00000097 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/26/22, 19:48:24:175 EET] 00000063 SystemErr                                                    R java.lang.IllegalStateException: The following values are either null or empty - fullyQualifiedClassName: null fullMethodSignature: null
+[1/26/22, 19:48:24:175 EET] 00000063 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.resolveSimpleTimerClassMethodTags(MetricsJaxRsEMCallbackImpl.java:120)
+[1/26/22, 19:48:24:175 EET] 00000063 SystemErr                                                    R 	at io.openliberty.microprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl.onDefaultMappedException(MetricsJaxRsEMCallbackImpl.java:81)
+[1/26/22, 19:48:24:175 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.jaxrs.defaultexceptionmapper.DefaultExceptionMapper.toResponse(DefaultExceptionMapper.java:52)
+[1/26/22, 19:48:24:175 EET] 00000063 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.ExceptionUtils.convertFaultToResponse(ExceptionUtils.java:85)
+[1/26/22, 19:48:24:175 EET] 00000063 SystemErr                                                    R 	at org.apache.cxf.jaxrs.utils.JAXRSUtils.convertFaultToResponse(JAXRSUtils.java:1881)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.convertExceptionToResponseIfPossible(JAXRSInInterceptor.java:296)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:103)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+[1/26/22, 19:48:24:176 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1011)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:75)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer40.servlet.CacheServletWrapper40.handleRequest(CacheServletWrapper40.java:85)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:938)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+[1/26/22, 19:48:24:177 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[1/26/22, 19:48:24:178 EET] 00000063 SystemErr                                                    R 	at java.base/java.lang.Thread.run(Thread.java:833)
+[1/26/22, 19:49:11:635 EET] 0000008a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[1/26/22, 19:49:11:636 EET] 0000008a com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [demo2] [/] [com.example.demo2.Demo2RestApplication]: Destroy successful.
+[1/26/22, 19:49:11:645 EET] 0000008a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application demo2 has stopped successfully.
+[1/26/22, 19:49:11:653 EET] 0000008a com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application demo2.
+[1/26/22, 19:49:11:653 EET] 0000008a bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The demo2 application is using the loose application definition at the C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\apps\demo2.war.xml location.
+[1/26/22, 19:49:11:671 EET] 00000098 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:49:14:533 EET] 0000008a io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application demo2 was processed and an OpenAPI document was produced.
+[1/26/22, 19:49:15:412 EET] 0000008a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: demo2.
+[1/26/22, 19:49:15:412 EET] 0000008a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module demo2 has been bound to default_host.
+[1/26/22, 19:49:15:412 EET] 0000008a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[1/26/22, 19:49:15:414 EET] 00000093 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[1/26/22, 19:49:15:415 EET] 00000093 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/26/22, 19:49:15:475 EET] 000000b6 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\hazi_\Downloads\demo2\service-a\target\liberty\wlp\usr\servers\demo2\logs\state\plugin-cfg.xml.
+[1/26/22, 19:49:15:494 EET] 00000093 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application demo2 updated in 3.841 seconds.
+[1/26/22, 19:49:17:015 EET] 0000009f .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[1/26/22, 19:49:17:022 EET] 0000009f com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [demo2] [/] [com.example.demo2.Demo2RestApplication]: Initialization successful.
+[1/26/22, 19:49:17:260 EET] 0000009f io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=demo2, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=172.26.224.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[1/26/22, 19:49:17:260 EET] 0000009f m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the demo2 application.  Tracing information is sent to localhost:6831.

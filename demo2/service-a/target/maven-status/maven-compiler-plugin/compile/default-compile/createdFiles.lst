@@ -1,0 +1,4 @@
+com\example\demo2\secure\TestSecureController.class
+com\example\demo2\secure\MPJWTToken.class
+com\example\demo2\Demo2RestApplication.class
+com\example\demo2\HelloController.class
