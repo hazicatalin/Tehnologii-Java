@@ -1,0 +1,13 @@
+com\mycompany\appinterface\User.class
+com\mycompany\appinterface\AddGrade.class
+com\mycompany\appinterface\Document.class
+com\mycompany\appinterface\Header.class
+com\mycompany\appinterface\MyHomeworks.class
+com\mycompany\appinterface\Course.class
+com\mycompany\appinterface\AddCourse.class
+com\mycompany\appinterface\AddHomework.class
+com\mycompany\appinterface\Register.class
+com\mycompany\appinterface\Login.class
+com\mycompany\appinterface\MyCourses.class
+com\mycompany\appinterface\Grade.class
+com\mycompany\appinterface\MyGrades.class

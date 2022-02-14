@@ -1,0 +1,408 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = D:/Facultate/Java/App/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-17.0.1
+java.version = 17.0.1
+java.runtime = Java(TM) SE Runtime Environment (17.0.1+12-LTS-39)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 8448@DESKTOP-EQQIBCR
+********************************************************************************
+[2/14/22, 18:45:08:034 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server App has been launched.
+[2/14/22, 18:45:11:299 EET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 4.365 seconds
+[2/14/22, 18:45:11:451 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[2/14/22, 18:45:13:285 EET] 0000001e .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[2/14/22, 18:45:13:287 EET] 0000001c .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Aries Blueprint packages not available. So namespaces will not be registered
+[2/14/22, 18:45:14:020 EET] 0000001a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[2/14/22, 18:45:14:562 EET] 0000001c com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[2/14/22, 18:45:16:997 EET] 0000001c com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[2/14/22, 18:45:17:005 EET] 0000001c com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[2/14/22, 18:45:17:007 EET] 0000001c com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2/14/22, 18:45:17:055 EET] 0000001e rty.security.mp.jwt.v12.config.impl.MpConfigProxyServiceImpl I CWWKS5780I: The MicroProfile JWT version 1.2 mpConfigProxy processed successfully.
+[2/14/22, 18:45:17:055 EET] 0000001b .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[2/14/22, 18:45:17:848 EET] 00000022 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: D:/Facultate/Java/App/target/liberty/wlp/usr/servers/App/resources/security/public.jks of type: JKS
+[2/14/22, 18:45:17:940 EET] 0000002b com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.123 seconds.
+[2/14/22, 18:45:17:997 EET] 0000001a ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[2/14/22, 18:45:18:083 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[2/14/22, 18:45:18:085 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [jwtUserConsumer] was successfully processed.
+[2/14/22, 18:45:18:085 EET] 00000022 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[2/14/22, 18:45:18:915 EET] 0000001a com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[2/14/22, 18:45:18:951 EET] 0000001a com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[2/14/22, 18:45:19:159 EET] 0000001a com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[2/14/22, 18:45:20:190 EET] 0000001a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[2/14/22, 18:45:20:549 EET] 0000001a .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[2/14/22, 18:45:22:383 EET] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application App.
+[2/14/22, 18:45:22:386 EET] 0000002d bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The App application is using the loose application definition at the D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\apps\App.war.xml location.
+[2/14/22, 18:45:23:718 EET] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[2/14/22, 18:45:23:729 EET] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[2/14/22, 18:45:23:731 EET] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/metrics/
+[2/14/22, 18:45:23:743 EET] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[2/14/22, 18:45:23:743 EET] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[2/14/22, 18:45:23:744 EET] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[2/14/22, 18:45:23:744 EET] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[2/14/22, 18:45:23:744 EET] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/health/
+[2/14/22, 18:45:23:744 EET] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/
+[2/14/22, 18:45:23:743 EET] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[2/14/22, 18:45:23:747 EET] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[2/14/22, 18:45:23:743 EET] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[2/14/22, 18:45:23:747 EET] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/jwt/
+[2/14/22, 18:45:23:747 EET] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[2/14/22, 18:45:23:748 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/openapi/ui/
+[2/14/22, 18:45:23:743 EET] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[2/14/22, 18:45:23:748 EET] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[2/14/22, 18:45:23:749 EET] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/ibm/api/
+[2/14/22, 18:45:23:927 EET] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[2/14/22, 18:45:23:928 EET] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[2/14/22, 18:45:23:927 EET] 00000034 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[2/14/22, 18:45:23:927 EET] 00000033 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[2/14/22, 18:45:23:927 EET] 00000031 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[2/14/22, 18:45:23:927 EET] 0000002f com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[2/14/22, 18:45:24:088 EET] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:24:122 EET] 0000002f com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:24:123 EET] 00000031 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:24:124 EET] 00000033 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:24:125 EET] 00000034 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:24:127 EET] 00000030 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:24:143 EET] 0000002b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2/14/22, 18:45:24:363 EET] 0000002e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:45:24:593 EET] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[2/14/22, 18:45:24:607 EET] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[2/14/22, 18:45:24:607 EET] 0000002f com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal] [/openapi] [ApplicationServlet]: Initialization successful.
+[2/14/22, 18:45:24:611 EET] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[2/14/22, 18:45:24:619 EET] 00000031 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[2/14/22, 18:45:28:196 EET] 0000002d io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: Validation of the OpenAPI document produced the following error(s): 
+                                                                                                               
+ - Message: The Schema Object of "array" type must have "items" property defined, Location: #/components/schemas/JSONArray
+
+[2/14/22, 18:45:28:202 EET] 0000002d io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application App was processed and an OpenAPI document was produced.
+[2/14/22, 18:45:28:329 EET] 0000002d org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[2/14/22, 18:45:31:596 EET] 0000002d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: App.
+[2/14/22, 18:45:31:597 EET] 0000002d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module App has been bound to default_host.
+[2/14/22, 18:45:31:597 EET] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[2/14/22, 18:45:31:602 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[2/14/22, 18:45:31:603 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:31:673 EET] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:45:31:679 EET] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application App started in 9.297 seconds.
+[2/14/22, 18:45:31:723 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9080.
+[2/14/22, 18:45:31:726 EET] 00000026 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host kubernetes.docker.internal  (IPv4: 127.0.0.1) port 9443.
+[2/14/22, 18:45:31:779 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-4.0, monitor-1.0, mpConfig-2.0, mpFaultTolerance-3.0, mpHealth-3.0, mpJwt-1.2, mpMetrics-3.0, mpOpenAPI-2.0, mpOpenTracing-2.0, mpRestClient-2.0, opentracing-2.0, servlet-4.0, ssl-1.0].
+[2/14/22, 18:45:31:779 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 20.481 seconds.
+[2/14/22, 18:45:31:780 EET] 00000026 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The App server is ready to run a smarter planet. The App server started in 24.849 seconds.
+[2/14/22, 18:45:35:840 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[2/14/22, 18:45:35:920 EET] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application App has stopped successfully.
+[2/14/22, 18:45:35:938 EET] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application App.
+[2/14/22, 18:45:35:939 EET] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The App application is using the loose application definition at the D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\apps\App.war.xml location.
+[2/14/22, 18:45:35:975 EET] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:45:37:930 EET] 00000029 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: Validation of the OpenAPI document produced the following error(s): 
+                                                                                                               
+ - Message: The Schema Object of "array" type must have "items" property defined, Location: #/components/schemas/JSONArray
+
+[2/14/22, 18:45:37:930 EET] 00000029 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application App was processed and an OpenAPI document was produced.
+[2/14/22, 18:45:38:776 EET] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: App.
+[2/14/22, 18:45:38:776 EET] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module App has been bound to default_host.
+[2/14/22, 18:45:38:776 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[2/14/22, 18:45:38:777 EET] 00000035 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[2/14/22, 18:45:38:778 EET] 00000035 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:45:38:825 EET] 00000035 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application App updated in 2.887 seconds.
+[2/14/22, 18:45:38:854 EET] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:46:20:600 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[2/14/22, 18:46:20:614 EET] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application App has stopped successfully.
+[2/14/22, 18:46:20:627 EET] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application App.
+[2/14/22, 18:46:20:627 EET] 00000029 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The App application is using the loose application definition at the D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\apps\App.war.xml location.
+[2/14/22, 18:46:20:702 EET] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:46:22:834 EET] 00000029 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: Validation of the OpenAPI document produced the following error(s): 
+                                                                                                               
+ - Message: The Schema Object of "array" type must have "items" property defined, Location: #/components/schemas/JSONArray
+
+[2/14/22, 18:46:22:835 EET] 00000029 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application App was processed and an OpenAPI document was produced.
+[2/14/22, 18:46:23:714 EET] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: App.
+[2/14/22, 18:46:23:714 EET] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module App has been bound to default_host.
+[2/14/22, 18:46:23:714 EET] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[2/14/22, 18:46:23:715 EET] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[2/14/22, 18:46:23:716 EET] 00000030 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:46:23:772 EET] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application App updated in 3.145 seconds.
+[2/14/22, 18:46:23:820 EET] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:47:54:897 EET] 00000033 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[2/14/22, 18:47:55:030 EET] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [App] [/] [com.example.App.AppRestApplication]: Initialization successful.
+[2/14/22, 18:47:55:450 EET] 00000033 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=App, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=192.168.1.23}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[2/14/22, 18:47:55:451 EET] 00000033 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the App application.  Tracing information is sent to localhost:6831.
+[2/14/22, 18:47:56:152 EET] 00000033 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:18:894 EET] 00000033 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:19:004 EET] 00000028 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:19:135 EET] 0000002e SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:19:238 EET] 00000035 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:19:351 EET] 00000029 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:19:469 EET] 0000002f SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:19:593 EET] 00000033 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:19:729 EET] 00000028 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:19:865 EET] 00000031 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:20:115 EET] 00000027 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:20:244 EET] 00000029 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:20:366 EET] 0000002f SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:20:689 EET] 00000035 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:20:923 EET] 0000002a SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:21:036 EET] 00000029 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:21:149 EET] 00000033 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:21:379 EET] 0000002f SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:21:537 EET] 00000030 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:21:651 EET] 00000026 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:21:776 EET] 00000029 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:21:896 EET] 0000002e SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:21:997 EET] 0000002d SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:22:136 EET] 00000035 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:49:22:294 EET] 00000030 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:36:674 EET] 00000030 SystemOut                                                    O ID: 2
+[2/14/22, 18:49:37:002 EET] 0000002e SystemOut                                                    O ID: 2
+[2/14/22, 18:49:37:369 EET] 00000032 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:49:37:478 EET] 00000033 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:11:096 EET] 00000034 SystemOut                                                    O ID: 2
+[2/14/22, 18:52:11:164 EET] 00000034 SystemOut                                                    O hihi: 1
+[2/14/22, 18:52:11:214 EET] 00000034 SystemOut                                                    O hihi:  4
+[2/14/22, 18:52:11:377 EET] 00000034 SystemOut                                                    O hihi:  5
+[2/14/22, 18:52:11:430 EET] 00000034 SystemOut                                                    O hihi:  8
+[2/14/22, 18:52:11:536 EET] 00000034 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:11:589 EET] 00000034 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:11:636 EET] 00000034 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:11:691 EET] 00000034 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:11:702 EET] 0000002a SystemOut                                                    O ID: 2
+[2/14/22, 18:52:11:748 EET] 0000002a SystemOut                                                    O hihi: 1
+[2/14/22, 18:52:11:902 EET] 0000002a SystemOut                                                    O hihi:  4
+[2/14/22, 18:52:12:061 EET] 0000002a SystemOut                                                    O hihi:  5
+[2/14/22, 18:52:12:122 EET] 0000002a SystemOut                                                    O hihi:  8
+[2/14/22, 18:52:12:313 EET] 0000002a SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:12:363 EET] 0000002a SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:12:414 EET] 0000002a SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:52:12:463 EET] 0000002a SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "courseid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.courseID".
+  Position: 38
+[2/14/22, 18:53:53:551 EET] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[2/14/22, 18:53:53:555 EET] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [App] [/] [com.example.App.AppRestApplication]: Destroy successful.
+[2/14/22, 18:53:53:578 EET] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application App has stopped successfully.
+[2/14/22, 18:53:53:598 EET] 00000027 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application App.
+[2/14/22, 18:53:53:599 EET] 00000027 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The App application is using the loose application definition at the D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\apps\App.war.xml location.
+[2/14/22, 18:53:53:661 EET] 00000032 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:53:56:487 EET] 00000027 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: Validation of the OpenAPI document produced the following error(s): 
+                                                                                                               
+ - Message: The Schema Object of "array" type must have "items" property defined, Location: #/components/schemas/JSONArray
+
+[2/14/22, 18:53:56:488 EET] 00000027 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application App was processed and an OpenAPI document was produced.
+[2/14/22, 18:53:57:308 EET] 00000027 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: App.
+[2/14/22, 18:53:57:309 EET] 00000027 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module App has been bound to default_host.
+[2/14/22, 18:53:57:310 EET] 00000027 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[2/14/22, 18:53:57:312 EET] 0000002d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[2/14/22, 18:53:57:313 EET] 0000002d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:53:57:385 EET] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application App updated in 3.787 seconds.
+[2/14/22, 18:53:57:423 EET] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:54:20:082 EET] 00000030 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=103)] I Setting the server's publish address to be /data/
+[2/14/22, 18:54:20:102 EET] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [App] [/] [com.example.App.AppRestApplication]: Initialization successful.
+[2/14/22, 18:54:20:374 EET] 00000030 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-1.5.0, serviceName=App, reporter=RemoteReporter(sender=UdpSender(host=localhost, port=6831), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=DESKTOP-EQQIBCR, jaeger.version=Java-1.5.0, ip=192.168.1.23}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[2/14/22, 18:54:20:376 EET] 00000030 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: A JaegerTracer instance was created for the App application.  Tracing information is sent to localhost:6831.
+[2/14/22, 18:54:20:736 EET] 00000030 SystemOut                                                    O org.postgresql.util.PSQLException: ERROR: column "studentid" does not exist
+  Hint: Perhaps you meant to reference the column "Catalog.studentID".
+  Position: 38
+[2/14/22, 18:54:45:715 EET] 00000031 oprofile.metrics.internal.monitor.MetricsJaxRsEMCallbackImpl W CWPMI2005W: The MicroProfile Metrics exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:128)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.createParamConversionException(InjectionUtils.java:618)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:549)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.createParameterObject(InjectionUtils.java:1177)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readQueryString(JAXRSUtils.java:1373)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.createHttpParameterValue(JAXRSUtils.java:1042)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:1012)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:927)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.valueOf(Integer.java:999)
+	at org.apache.cxf.common.util.PrimitiveUtils.read(PrimitiveUtils.java:83)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:543)
+	... 46 more
+
+[2/14/22, 18:54:45:783 EET] 00000031 nliberty.opentracing.internal.OpentracingJaxRsEMCallbackImpl W CWMOT0009W: The OpenTracing exception mapper detected and is handling an unhandled exception from the JAX-RS application. 
+                                                                                                               javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:128)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.createParamConversionException(InjectionUtils.java:618)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:549)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.createParameterObject(InjectionUtils.java:1177)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readQueryString(JAXRSUtils.java:1373)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.createHttpParameterValue(JAXRSUtils.java:1042)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:1012)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:927)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:291)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:123)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:277)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:137)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doPost(IBMRestServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:706)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1258)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:746)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:443)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:193)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:98)
+	at com.ibm.ws.security.jaspi.JaspiServletFilter.doFilter(JaspiServletFilter.java:56)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:201)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:1002)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1140)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:5049)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:316)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:281)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1184)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:453)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:412)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:566)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:500)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:360)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.ready(HttpInboundLink.java:327)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:238)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.valueOf(Integer.java:999)
+	at org.apache.cxf.common.util.PrimitiveUtils.read(PrimitiveUtils.java:83)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:543)
+	... 46 more
+
+[2/14/22, 18:55:23:465 EET] 0000002b SystemOut                                                    O org.postgresql.util.PSQLException: No results were returned by the query.
+[2/14/22, 18:57:50:843 EET] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[2/14/22, 18:57:50:844 EET] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [App] [/] [com.example.App.AppRestApplication]: Destroy successful.
+[2/14/22, 18:57:50:850 EET] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application App has stopped successfully.
+[2/14/22, 18:57:50:857 EET] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application App.
+[2/14/22, 18:57:50:858 EET] 00000030 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The App application is using the loose application definition at the D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\apps\App.war.xml location.
+[2/14/22, 18:57:50:947 EET] 00000035 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.
+[2/14/22, 18:57:52:252 EET] 00000030 io.openliberty.microprofile.openapi20.utils.OpenAPIUtils     E CWWKO1650E: Validation of the OpenAPI document produced the following error(s): 
+                                                                                                               
+ - Message: The Schema Object of "array" type must have "items" property defined, Location: #/components/schemas/JSONArray
+
+[2/14/22, 18:57:52:252 EET] 00000030 io.openliberty.microprofile.openapi20.ApplicationProcessor   I CWWKO1660I: The application App was processed and an OpenAPI document was produced.
+[2/14/22, 18:57:52:797 EET] 00000030 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: App.
+[2/14/22, 18:57:52:798 EET] 00000030 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module App has been bound to default_host.
+[2/14/22, 18:57:52:798 EET] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[2/14/22, 18:57:52:799 EET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[2/14/22, 18:57:52:800 EET] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2/14/22, 18:57:52:833 EET] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application App updated in 1.976 seconds.
+[2/14/22, 18:57:53:008 EET] 00000034 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at D:\Facultate\Java\App\target\liberty\wlp\usr\servers\App\logs\state\plugin-cfg.xml.

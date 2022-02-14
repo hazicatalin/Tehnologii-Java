@@ -1,0 +1,9 @@
+database\Grade.class
+apptools\Email.class
+com\example\App\DatabaseURLs.class
+com\example\App\HelloController.class
+database\Document.class
+database\Course.class
+com\example\App\AppRestApplication.class
+database\User.class
+database\DBmanager.class

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Header</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <p:toolbar>
+                <p:toolbarGroup>
+                    <p:commandButton id="gotoMyGrades" value="My Grades" action="#{head.myGrades}" styleClass="ui-button-raised" disabled="#{head.disableTeacher()}"/>
+                    <p:commandButton id="gotoMyHomeworks" value="My Homeworks" action="#{head.myHomeworks}" styleClass="ui-button-raised"/>
+                    <p:commandButton id="gotoMyCourses" value="My Courses" action="#{head.myCourses}" styleClass="ui-button-raised"/>
+                    <p:commandButton id="gotoAddGrade" value="Add Grade" action="#{head.addGrade}" styleClass="ui-button-raised" disabled="#{head.disableStudent()}"/>
+                    <p:commandButton id="gotoAddHomework" value="Add Homework" action="#{head.addHomework}" styleClass="ui-button-raised" disabled="#{head.disableStudent()}"/>
+                    <p:commandButton id="gotoAddCourse" value="Add Course" action="#{head.addCourse}" styleClass="ui-button-raised" disabled="#{head.disableStudent()}"/>
+                </p:toolbarGroup>
+            </p:toolbar>
+        </h:form>
+    </h:body>
+</html>
+

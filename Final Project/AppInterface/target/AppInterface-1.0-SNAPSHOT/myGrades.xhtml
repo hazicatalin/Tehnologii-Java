@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pe="http://primefaces.org/ui/extensions"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>My Grades</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="page.xhtml">
+            <ui:define name="firstContent">
+                 <h:form>
+                    <p:dataTable var="p" value="#{myGrades.findAll()}">
+                        <p:column>
+                            <f:facet name="header">Student</f:facet>
+                            <h:outputText value="#{p.getStudentName()}"></h:outputText>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">Course</f:facet>
+                            <h:outputText value="#{p.getCourseName()}"></h:outputText>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">Teacher</f:facet>
+                            <h:outputText value="#{p.getTeacherName()}"></h:outputText>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">Grade</f:facet>
+                            <h:outputText value="#{p.grade}"></h:outputText>
+                        </p:column>
+                    </p:dataTable>
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+
